@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body{
   background-color: #1C2430 !important;
+  font-family: 'Sarabun',sans-serif;
 }
 .story-heading {
   font-family: Franklin Gothic Heavy;
   font-weight: 400;
   font-size: 43px;
   line-height: 48.75px;
-  letter-spacing: 0%;
   color: #3586FF;
   padding-bottom: 23px;
-  ;
 }
 
 .story-pera {
@@ -17,8 +17,6 @@ body{
   font-weight: 400;
   font-size: 16px;
   line-height: 20.8px;
-  letter-spacing: 0%;
-  text-align: center;
   color: #D4E5FF;
   max-width: 888px;
 }
@@ -33,7 +31,6 @@ body{
   margin-top: 58px;
   margin-bottom: 117px;
 }
-
 /* team */
 .team-image {
   max-width: 202px;
@@ -47,7 +44,6 @@ body{
   font-weight: 400;
   font-size: 24px;
   line-height: 27.21px;
-  letter-spacing: 0%;
   color: #3586FF;
   padding-bottom: 9px;
 }
@@ -65,12 +61,10 @@ body{
 .twitter {
   max-width: 20px;
   height: 20px;
-  margin: auto;
 }
 
 .max-w-880 {
   max-width: 880px;
-  margin: auto;
   padding-bottom: 36px;
 }
 
@@ -102,6 +96,9 @@ body{
 
 .slider-left {
   animation: scrollLeft 18s linear infinite;
+}
+.pb-28{
+  padding-bottom: 28px;
 }
 
 @keyframes scrollLeft {
@@ -135,7 +132,6 @@ body{
     margin-bottom: 23px;
     width: 100%;
   }
-
   .card-text {
     max-width: none;
   }
@@ -145,7 +141,6 @@ body{
   .story-image {
     height: 100%;
   }
-
   .slider-image {
     width: 250px;
     height: 250px;
@@ -156,7 +151,6 @@ body{
   .footer-right-image {
     display: none;
   }
-
   .footer-left-image {
     display: none;
   }

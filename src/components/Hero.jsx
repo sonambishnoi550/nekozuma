@@ -24,7 +24,7 @@ const Hero = () => {
                     </div>
                     <div className="col-lg-6 text-right mt-4 mt-lg-0 position-absolute hero-image-position px-0">
                         <Image
-                            src="/assets/images/png/hero-image.webp"
+                            src="/assets/images/webp/hero-image.webp"
                             alt="Nekozuma Character"
                             width={557}
                             height={557}
@@ -33,7 +33,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="position-absolute light-position">
-                    <Image src="/assets/images/png/hero-left-light.png" alt="left-light" width={355} height={511} />
+                    <Image src="/assets/images/webp/hero-left-light.webp" alt="left-light" width={355} height={511} />
                 </div>
             </div>
         </div>

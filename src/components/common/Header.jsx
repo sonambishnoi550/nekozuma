@@ -5,7 +5,7 @@ import Image from "next/image";
 const Header = () => {
     return (
         <div className="bg-dark nav-pt position-relative">
-            <Image className="position-absolute logo-image" src="/assets/images/png/header-image.png" alt="logo-image" width={540} height={83} />
+            <Image className="position-absolute logo-image" src="/assets/images/webp/header-image.webp" alt="logo-image" width={540} height={83} />
             <div className="d-flex justify-content-between max-w-880 mx-auto px-3">
                     <a href="#" className="d-flex align-items-center nav-logo">
                     <h2 className="text-white nav-logo position-relative z-10"> NEKOZUMA </h2>

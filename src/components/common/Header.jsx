@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 
 const Header = () => {
@@ -9,13 +8,8 @@ const Header = () => {
             <Image className="position-absolute logo-image" src="/assets/images/png/header-image.png" alt="logo-image" width={540} height={83} />
             <div className="d-flex justify-content-between max-w-880 mx-auto px-3">
                     <a href="#" className="d-flex align-items-center nav-logo">
-                    <h2
-                        className="text-white nav-logo position-relative z-10"
-                    >
-                        NEKOZUMA
-                </h2>
+                    <h2 className="text-white nav-logo position-relative z-10"> NEKOZUMA </h2>
             </a>
-
                 <ul className="ms-auto d-flex align-items-center justify-content-center links-gap mb-0 position-relative z-10">
                     <li> <a href="#overview" className="cursor-pointer nav-text">Overview</a>
                     </li>

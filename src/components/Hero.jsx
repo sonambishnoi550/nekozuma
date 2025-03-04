@@ -5,7 +5,7 @@ import Link from "next/link";
 const Hero = () => {
     return (
         <div className="hero-section">
-            <div className="hero-section text-white d-flex align-items-lg-center  overflow-hidden position-relative mx-auto max-w-1920">
+            <div className="hero-section text-white d-flex align-items-lg-center overflow-hidden position-relative mx-auto max-w-1920">
                 <div className="row align-items-lg-center ms-auto hero-padding mx-auto max-w-880">
                     <div className="col-lg-6 text-center text-lg-start px-0">
                         <div className="container mx-auto max-w-1140">
@@ -22,7 +22,6 @@ const Hero = () => {
                             </Link>
                         </div>
                     </div>
-
                     <div className="col-lg-6 text-right mt-4 mt-lg-0 position-absolute hero-image-position px-0">
                         <Image
                             src="/assets/images/png/hero-image.webp"

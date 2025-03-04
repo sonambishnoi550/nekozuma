@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Team = () => {
     return (
-        <div className='pb-28 team-pt'>
+        <div id='team' className='pb-28 team-pt'>
             <div className="container">
                 <h2 className='story-heading text-center team-padding mb-0'>Team</h2>
                 <div className='d-flex md:gap-5 gap-4'>
@@ -10,7 +10,7 @@ const Team = () => {
                         <div>
                             <Image className='team-image' src="/assets/images/png/team-image1.png" alt="image1" width={202} height={202} />
                             <h2 className='card-heading text-center mb-0'>Founder</h2>
-                            <p className='card-text text-center  mb-0'>Jedi Trinupab </p>
+                            <p className='card-text text-center mb-0'>Jedi Trinupab </p>
                             <p className='card-text text-center w-full mb-0'>However at every junction in time, there is always a darkness that is waiting to overthrow </p>
                             <Image className='text-center mx-auto twitter d-flex align-items-center justify-content-center' src="/assets/images/svg/twitter.svg" alt="twitter" width={20} height={20} />
                         </div>
@@ -31,7 +31,7 @@ const Team = () => {
                         <div>
                             <Image className='team-image' src="/assets/images/png/team-image4.png" alt="image4" width={202} height={202} />
                             <h2 className='card-heading text-center mb-0'>Development</h2>
-                            <p className='card-text text-center mb-0'>Karmic Labs  </p>
+                            <p className='card-text text-center mb-0'>Karmic Labs </p>
                             <p className='card-text text-center mb-0'>However at every junction in time, there is always a darkness that is waiting to overthrow </p>
                             <Image className='text-center mx-auto twitter d-flex align-items-center justify-content-center' src="/assets/images/svg/twitter.svg" alt="twitter" width={20} height={20} />
                         </div>
@@ -59,9 +59,9 @@ const Team = () => {
                             <Image className='text-center mx-auto twitter d-flex align-items-center justify-content-center' src="/assets/images/svg/twitter.svg" alt="twitter" width={20} height={20} />
                         </div>
                         <div>
-                            <Image className='team-image' src="/assets/images/png/team-image8.png" alt="image8"  width={202} height={202} />
+                            <Image className='team-image' src="/assets/images/png/team-image8.png" alt="image8" width={202} height={202} />
                             <h2 className='card-heading text-center mb-0'>Position</h2>
-                            <p className='card-text text-center mb-0'>Jedi Trinupab  </p>
+                            <p className='card-text text-center mb-0'>Jedi Trinupab </p>
                             <p className='card-text text-center mb-0'>However at every junction in time, there is always a darkness that is waiting to overthrow </p>
                             <Image className='text-center mx-auto twitter d-flex align-items-center justify-content-center' src="/assets/images/svg/twitter.svg" alt="twitter" width={20} height={20} />
                         </div>

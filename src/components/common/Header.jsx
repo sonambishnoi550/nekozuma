@@ -15,24 +15,20 @@ const Header = () => {
                         NEKOZUMA
                     </div>
                 </div>
-                    <ul className="ms-auto d-flex align-items-center justify-content-center links-gap mb-0 position-relative z-10">
-                        <li className=" nav-text" href="#overview">
-                            Overview
-                        </li>
-                        <li className=" nav-text" href="#story">
-                            Story
-                        </li>
-                        <li className=" nav-text" href="#team">
-                            Team
-                        </li>
-                    </ul>
-                    <div className="d-flex icons-ml icons-gap  position-relative z-10">
-                        <a className="icons" href="https://discord.com/channels"> <Image src="/assets/images/svg/discord.svg" alt="discord" width={32} height={32} /></a>
-                        <a className="icons" href="https://x.com/?lang=en"> <Image src="/assets/images/svg/footer-twitter.svg" alt="twitter" width={32} height={32} /></a>
-                    </div>
+                <ul className="ms-auto d-flex align-items-center justify-content-center links-gap mb-0 position-relative z-10">
+                    <li> <a href="#overview" className="cursor-pointer nav-text">Overview</a>
+                    </li>
+                    <li> <a href="#story" className="cursor-pointer nav-text">Story</a>
+                    </li>
+                    <li> <a href="#team" className="cursor-pointer nav-text">Team</a>
+                    </li>
+                </ul>
+                <div className="d-flex icons-ml icons-gap position-relative z-10">
+                    <a className="icons" href="https://discord.com/channels"> <Image src="/assets/images/svg/discord.svg" alt="discord" width={32} height={32} /></a>
+                    <a className="icons" href="https://x.com/?lang=en"> <Image src="/assets/images/svg/footer-twitter.svg" alt="twitter" width={32} height={32} /></a>
                 </div>
             </div>
-
+        </div>
     );
 };
 

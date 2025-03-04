@@ -4,8 +4,6 @@ body {
   background-color: #1C2430 !important;
   font-family: 'Sarabun', sans-serif !important;
 }
-
-/* navbar */
 .nav-text {
   font-weight: 400;
   font-size: 16px;
@@ -57,7 +55,6 @@ body {
   z-index: 10;
 }
 
-/* hero */
 .text-right {
   text-align: right;
 }
@@ -74,7 +71,6 @@ body {
 
 .text-primary {
   color: #3586FF !important;
-
 }
 
 .btn-primary {
@@ -97,7 +93,7 @@ body {
 
 .size-border {
   width: 164px;
-  height: 1px;
+  height: 2px;
   background-color: #3586FF;
 }
 
@@ -115,7 +111,6 @@ body {
   right: 0;
 }
 
-/* story */
 .story-heading {
   font-family: 'Franklin Gothic Heavy', sans-serif;
   font-weight: 400;
@@ -143,7 +138,6 @@ body {
   margin-bottom: 61px;
 }
 
-/* team */
 .team-image {
   max-width: 202px;
   height: 202px;
@@ -256,19 +250,12 @@ body {
   max-width: 540px;
 }
 
-@media (min-width:1023.01) and (max-width:768.98px) {
-  .heading-font {
-    font-size: 54px;
-  }
-}
-
 @media(max-width:1024.99px) {
   .logo-image {
     max-width: 340px;
     height: 79px;
   }
 
-  /* hero */
   .light-position {
     display: none;
   }
@@ -301,20 +288,16 @@ body {
   .hero-padding {
     padding-top: 20px;
   }
+
   .team-pt{
     padding-top: 30px;
   }
 
-  /* hero */
   .hero-image-position {
-    right: 0;
     top: 23%;
   }
 
   .size-border {
-    max-width: 164px;
-    height: 2px;
-    background-color: #3586FF;
     margin-left: auto;
     margin-right: auto;
   }
@@ -392,7 +375,6 @@ body {
     gap: 9px;
   }
 
-  /* hero */
   .flex-direction {
     flex-direction: column;
   }
@@ -406,7 +388,6 @@ body {
   }
 
   .hero-image-position {
-    right: 0;
     top: 37%;
   }
 

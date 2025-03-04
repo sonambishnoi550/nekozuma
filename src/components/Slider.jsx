@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Slider = () => {
     return (
-        <div className="overflow-hidden">
+        <div id="overview" className="overflow-hidden">
             <div className="d-flex slider-left">
                 <Image className="slider-image" src="/assets/images/png/slider-image1.png" alt="slider-one" width={320} height={320} />
                 <Image className="slider-image" src="/assets/images/png/team-image2.png" alt="slider-two" width={320} height={320} />
@@ -36,5 +36,4 @@ const Slider = () => {
         </div>
     );
 };
-
 export default Slider;

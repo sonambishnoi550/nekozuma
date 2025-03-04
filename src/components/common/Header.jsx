@@ -8,13 +8,14 @@ const Header = () => {
         <div className="bg-dark nav-pt position-relative">
             <Image className="position-absolute logo-image" src="/assets/images/png/header-image.png" alt="logo-image" width={540} height={83} />
             <div className="d-flex justify-content-between max-w-880 mx-auto px-3">
-                <div className="d-flex align-items-center">
-                    <div
+                    <a href="#" className="d-flex align-items-center nav-logo">
+                    <h2
                         className="text-white nav-logo position-relative z-10"
                     >
                         NEKOZUMA
-                    </div>
-                </div>
+                </h2>
+            </a>
+
                 <ul className="ms-auto d-flex align-items-center justify-content-center links-gap mb-0 position-relative z-10">
                     <li> <a href="#overview" className="cursor-pointer nav-text">Overview</a>
                     </li>

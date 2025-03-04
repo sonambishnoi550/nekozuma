@@ -4,6 +4,7 @@ body {
   background-color: #1C2430 !important;
   font-family: 'Sarabun', sans-serif !important;
 }
+
 .nav-text {
   font-weight: 400;
   font-size: 16px;
@@ -31,6 +32,8 @@ body {
   font-size: 21.64px;
   line-height: 24.54px;
   letter-spacing: 11%;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .icons-ml {
@@ -289,7 +292,7 @@ body {
     padding-top: 20px;
   }
 
-  .team-pt{
+  .team-pt {
     padding-top: 30px;
   }
 

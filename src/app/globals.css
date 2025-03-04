@@ -282,16 +282,6 @@ body {
 }
 
 @media(max-width:1020.99px) {
-  .team-image {
-    max-width: none;
-    height: 100%;
-    margin-bottom: 23px;
-    width: 100%;
-  }
-
-  .card-text {
-    max-width: none;
-  }
 
   .btn-primary {
     margin-top: 20px;
@@ -407,4 +397,15 @@ top: 32%;
   .hero-section {
     min-height: 630px;
   }
+    .team-image {
+      max-width: none;
+      height: 100%;
+      margin-bottom: 23px;
+      width: 100%;
+    }
+  
+    .card-text {
+      max-width: none;
+    }
 }
+ 

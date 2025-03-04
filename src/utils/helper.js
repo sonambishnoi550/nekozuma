@@ -23,3 +23,13 @@ export const SLIDER_RIGHT_IMAGES = [
     "/assets/images/webp/slider-image5.webp",
     "/assets/images/webp/slider-image6.webp"
 ];
+export const TEAM_MEMBERS = [
+    { name: 'Jedi Trinupab', role: 'Founder', image: '/assets/images/webp/team-image1.webp' },
+    { name: 'Suptoshi', role: 'Co Founder', image: '/assets/images/webp/team-image2.webp' },
+    { name: 'Jedi Trinupab', role: 'Position', image: '/assets/images/webp/team-image5.webp' },
+    { name: 'Jedi Trinupab', role: 'Position', image: '/assets/images/webp/team-image6.webp' },
+    { name: 'Korn', role: 'Artist', image: '/assets/images/webp/team-image3.webp' },
+    { name: 'Karmic Labs', role: 'Development', image: '/assets/images/webp/team-image4.webp' },
+    { name: 'Jedi Trinupab', role: 'Position', image: '/assets/images/webp/team-image7.webp' },
+    { name: 'Jedi Trinupab', role: 'Position', image: '/assets/images/webp/team-image8.webp' },
+];

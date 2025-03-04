@@ -10,12 +10,12 @@ const Header = () => {
                     <a href="#" className="d-flex align-items-center nav-logo">
                     <h2 className="text-white nav-logo position-relative z-10"> NEKOZUMA </h2>
             </a>
-                <ul className="ms-auto d-flex align-items-center justify-content-center links-gap mb-0 position-relative z-10 nav-text">
-                    <li> <Link href="#overview" className="cursor-pointer nav-text" Overview/>
+                <ul className="ms-auto d-flex align-items-center justify-content-center links-gap mb-0 position-relative z-10">
+                    <li> <a href="#overview" className="cursor-pointer nav-text">Overview</a>
                     </li>
-                    <li> <Link href="#story" className="cursor-pointer nav-text" Story />
+                    <li> <a href="#story" className="cursor-pointer nav-text">Story</a>
                     </li>
-                    <li> <Link href="#team" className="cursor-pointer nav-text" Team />
+                    <li> <a href="#team" className="cursor-pointer nav-text">Team</a>
                     </li>
                 </ul>
                 <div className="d-flex icons-ml icons-gap position-relative z-10">

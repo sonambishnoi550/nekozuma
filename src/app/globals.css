@@ -64,7 +64,6 @@ body {
 
 .hero-section {
   background-color: #1C2430;
-  z-index: 2;
   min-height: 557px;
 }
 
@@ -107,7 +106,6 @@ body {
 .light-position {
   bottom: -2%;
   left: 0;
-  z-index: -1;
 }
 
 .hero-image-position {
@@ -376,14 +374,6 @@ body {
 
   .icons-gap {
     gap: 9px;
-  }
-
-  .flex-direction {
-    flex-direction: column;
-  }
-
-  .pt-90 {
-    padding-top: 90px;
   }
 
   .heading-font {

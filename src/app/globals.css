@@ -1,10 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-body{
+
+body {
   background-color: #1C2430 !important;
-  font-family: 'Sarabun',sans-serif !important;
+  font-family: 'Sarabun', sans-serif !important;
 }
+
+/* navbar */
+.nav-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.nav-text:hover {
+  color: #2672ff;
+}
+
+.links-gap {
+  gap: 32px;
+}
+.icons:hover{
+  scale: 1.3;
+}
+
+.nav-logo {
+  font-family: 'Franklin Gothic Heavy', sans-serif;
+  font-weight: 400;
+  font-size: 21.64px;
+  line-height: 24.54px;
+  letter-spacing: 11%;
+}
+
+.icons-ml {
+  margin-left: 32px;
+}
+
+.icons-gap {
+  gap: 18px;
+}
+
+.nav-pt {
+  padding-top: 31px;
+}
+
+.logo-image {
+  top: 0;
+  left: 0;
+  max-width: 540px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+/* hero */
+.text-right {
+  text-align: right;
+}
+
+.hero-section {
+  background-color: #1C2430;
+  z-index: 2;
+  min-height: 557px;
+}
+
+.max-w-1920 {
+  max-width: 1920px;
+}
+
+.text-primary {
+  color: #3586FF !important;
+
+}
+
+.btn-primary {
+  background-color: #2672ff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1b5fd9;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.heading-font {
+  font-size: 64px;
+}
+
+.size-border {
+  width: 164px;
+  height: 1px;
+  background-color: #3586FF;
+}
+
+.max-w-1140 {
+  max-width: 1140px !important;
+}
+
+.light-position {
+  bottom: -2%;
+  left: 0;
+  z-index: -1;
+}
+
+.hero-image-position {
+  right: 0;
+}
+
+/* story */
 .story-heading {
-  font-family: 'Franklin Gothic Heavy',sans-serif;
+  font-family: 'Franklin Gothic Heavy', sans-serif;
   font-weight: 400;
   font-size: 43px;
   line-height: 48.75px;
@@ -29,6 +139,7 @@ body{
   margin-top: 58px;
   margin-bottom: 117px;
 }
+
 /* team */
 .team-image {
   max-width: 202px;
@@ -38,7 +149,7 @@ body{
 }
 
 .card-heading {
-  font-family: 'Franklin Gothic Heavy',sans-serif;
+  font-family: 'Franklin Gothic Heavy', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 27.21px;
@@ -66,7 +177,7 @@ body{
 }
 
 .footer-heading {
-  font-family: 'Franklin Gothic Heavy',sans-serif;
+  font-family: 'Franklin Gothic Heavy', sans-serif;
   font-weight: 400;
   font-size: 21.64px;
   line-height: 24.54px;
@@ -94,7 +205,8 @@ body{
 .slider-left {
   animation: scrollLeft 18s linear infinite;
 }
-.pb-28{
+
+.pb-28 {
   padding-bottom: 28px;
 }
 
@@ -122,6 +234,34 @@ body{
   }
 }
 
+.logo-image {
+  top: 0;
+  left: 0;
+  max-width: 540px;
+}
+
+@media (min-width:1023.01) and (max-width:768.98px) {
+  .heading-font {
+    font-size: 54px;
+  }
+}
+
+@media(max-width:1024.99px) {
+  .logo-image {
+    max-width: 340px;
+    height: 79px;
+  }
+
+  /* hero */
+  .light-position {
+    display: none;
+  }
+
+  .hero-section {
+    min-height: 511px;
+  }
+}
+
 @media(max-width:1020.99px) {
   .team-image {
     max-width: none;
@@ -129,8 +269,32 @@ body{
     margin-bottom: 23px;
     width: 100%;
   }
+
   .card-text {
     max-width: none;
+  }
+
+  /* hero */
+  .hero-image-position {
+    right: 0;
+    top: 23%;
+  }
+
+  .size-border {
+    max-width: 164px;
+    height: 1px;
+    background-color: #3586FF;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-image-position {
+    max-width: 400px;
+    height: 400px;
+  }
+
+  .hero-section {
+    min-height: 755px;
   }
 }
 
@@ -138,9 +302,15 @@ body{
   .story-image {
     height: 100%;
   }
+
   .slider-image {
     width: 250px;
     height: 250px;
+  }
+
+  .logo-image {
+    max-width: 240px;
+    height: 79px;
   }
 }
 
@@ -148,11 +318,68 @@ body{
   .footer-right-image {
     display: none;
   }
+
   .footer-left-image {
     display: none;
   }
-   .slider-image {
+
+  .slider-image {
     width: 190px;
     height: 190px;
+  }
+
+  .mt-20 {
+    margin-top: 20px;
+  }
+
+  .nav-pt {
+    padding-top: 12px;
+  }
+
+  .logo-image {
+    max-width: 160px;
+    height: 47px;
+  }
+
+  .nav-logo {
+    font-size: 18px;
+  }
+
+  .icons-ml {
+    margin-left: 12px;
+  }
+
+  .links-gap {
+    gap: 13px;
+  }
+
+  .nav-text {
+    font-size: 13px;
+  }
+
+  .icons-gap {
+    gap: 9px;
+  }
+
+  /* hero */
+  .flex-direction {
+    flex-direction: column;
+  }
+
+  .pt-90 {
+    padding-top: 90px;
+  }
+
+  .heading-font {
+    font-size: 44px;
+  }
+
+  .hero-image-position {
+    right: 0;
+    top: 37%;
+  }
+
+  .hero-section {
+    min-height: 630px;
   }
 }

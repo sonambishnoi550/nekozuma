@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Slider = () => {
     return (
-        <div id="overview" className="overflow-hidden">
+        <div id="overview" className="overflow-hidden mx-auto max-w-1920">
             <div className="d-flex slider-left">
                 <Image className="slider-image" src="/assets/images/webp/slider-image1.webp" alt="slider-one" width={320} height={320} />
                 <Image className="slider-image" src="/assets/images/webp/slider-image2.webp" alt="slider-two" width={320} height={320} />

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
     return (
-        <div className="bg-dark nav-pt position-relative">
+        <div className="bg-dark nav-pt position-relative mx-auto max-w-1920">
             <Image className="position-absolute logo-image" src="/assets/images/webp/header-image.webp" alt="logo-image" width={540} height={83} />
             <div className="d-flex justify-content-between max-w-880 mx-auto px-3">
                     <a href="#" className="d-flex align-items-center nav-logo">

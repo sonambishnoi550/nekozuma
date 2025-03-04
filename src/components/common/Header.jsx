@@ -11,11 +11,11 @@ const Header = () => {
                     <h2 className="text-white nav-logo position-relative z-10"> NEKOZUMA </h2>
             </a>
                 <ul className="ms-auto d-flex align-items-center justify-content-center links-gap mb-0 position-relative z-10 nav-text">
-                    <li> <a href="#overview" className="cursor-pointer nav-text">Overview</a>
+                    <li> <Link href="#overview" className="cursor-pointer nav-text" Overview/>
                     </li>
-                    <li> <a href="#story" className="cursor-pointer nav-text">Story</a>
+                    <li> <Link href="#story" className="cursor-pointer nav-text" Story />
                     </li>
-                    <li> <a href="#team" className="cursor-pointer nav-text">Team</a>
+                    <li> <Link href="#team" className="cursor-pointer nav-text" Team />
                     </li>
                 </ul>
                 <div className="d-flex icons-ml icons-gap position-relative z-10">

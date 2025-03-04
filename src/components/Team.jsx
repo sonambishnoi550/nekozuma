@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 const Team = () => {
     return (
-        <div className='pb-28'>
+        <div className='pb-28 team-pt'>
             <div className="container">
-                <h2 className='story-heading text-center'>Team</h2>
+                <h2 className='story-heading text-center team-padding mb-0'>Team</h2>
                 <div className='d-flex md:gap-5 gap-4'>
                     <div className="d-flex flex-wrap gap-4 max-w-880 mx-auto align-items-center justify-content-end">
                         <div>

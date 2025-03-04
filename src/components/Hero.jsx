@@ -6,12 +6,12 @@ const Hero = () => {
     return (
         <div className="hero-section">
             <div className="hero-section text-white d-flex align-items-lg-center  overflow-hidden position-relative mx-auto max-w-1920">
-                <div className="row align-items-lg-center ms-auto py-5 mx-auto max-w-880">
+                <div className="row align-items-lg-center ms-auto hero-padding mx-auto max-w-880">
                     <div className="col-lg-6 text-center text-lg-start px-0">
                         <div className="container mx-auto max-w-1140">
                             <div className="text-primary size-border mr-auto text-center"></div>
                             <h1 className="fw-bold heading-font text-primary">NEKOZUMA</h1>
-                            <p className="text-light ">
+                            <p className="text-light mb-0">
                                 The collection of 5555 NFTs on the Solana blockchain. The collection
                                 serves to be a rising force against the anime meta of collections
                                 with undoxxed teams and is therefore backed by the team at

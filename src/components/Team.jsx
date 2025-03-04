@@ -9,11 +9,11 @@ const Team = () => {
                 <div className='d-flex flex-wrap gap-4 max-w-880 mx-auto align-items-center justify-content-center'>
                     {TEAM_MEMBERS.map((member, index) => (
                         <div key={index}>
-                            <Image className='team-image' src={member.image} alt={member.name} width={202} height={202} />
+                            <Image className='team-image pointer-events-none' src={member.image} alt={member.name} width={202} height={202} />
                             <h2 className='card-heading text-center mb-0'>{member.role}</h2>
                             <p className='card-text text-center mb-0'>{member.name}</p>
                             <p className='card-text text-center mb-0'>However at every junction in time, there is always a darkness that is waiting to overthrow</p>
-                            <Image className='text-center mx-auto twitter d-flex align-items-center justify-content-center' src='/assets/images/svg/twitter.svg' alt='twitter' width={20} height={20} />
+                            <a href="#" target='_blank'> <Image className='text-center mx-auto twitter d-flex align-items-center justify-content-center image-mb' src='/assets/images/svg/twitter.svg' alt='twitter' width={20} height={20} /></a>
                         </div>
                     ))}
                 </div>

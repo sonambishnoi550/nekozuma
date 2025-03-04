@@ -30,6 +30,7 @@ body {
 
 .icons:hover {
   scale: 1.3;
+  transition: all 300ms linear;
 }
 
 .nav-logo {
@@ -82,13 +83,15 @@ body {
 }
 
 .btn-primary {
-  background-color: #245AAB;
-  border: none;
+  background-color: #245AAB !important;
+  border: 2px solid #245AAB !important;
   margin-top: 43px;
+  padding: 6px 23px !important;
 }
 
 .btn-primary:hover {
-  background-color: #1b5fd9;
+  scale: 1.1;
+  transition: all 300ms linear;
 }
 
 .right-0 {
@@ -120,7 +123,7 @@ body {
 }
 
 .story-heading {
-  font-family:franklin;
+  font-family: franklin;
   font-weight: 400;
   font-size: 43px;
   line-height: 48.75px;
@@ -133,6 +136,7 @@ body {
   line-height: 20.8px;
   color: #D4E5FF;
   max-width: 888px;
+  font-size: 14px;
 }
 
 .story-padding {
@@ -151,6 +155,9 @@ body {
   height: 202px;
   margin-bottom: 23px;
   width: 100%;
+}
+.pointer-events-none{
+  pointer-events: none !important;
 }
 
 .card-heading {
@@ -192,6 +199,8 @@ body {
   line-height: 24.54px;
   letter-spacing: 11%;
   color: #FFFFFF;
+    text-decoration: none;
+      list-style-type: none;
 }
 
 .footer-bg {
@@ -211,6 +220,10 @@ body {
   max-width: 355px;
   height: 186px;
   top: -6%;
+}
+
+.image-mb {
+  margin-bottom: 12px;
 }
 
 .footer-right-image {
@@ -260,10 +273,12 @@ body {
   }
 }
 
-.logo-image {
-  top: 0;
-  left: 0;
-  max-width: 540px;
+@media(max-width:1280.99px) {
+  .logo-image {
+    top: 0;
+    left: 0;
+    max-width: 430px;
+  }
 }
 
 @media(max-width:1024.99px) {
@@ -278,6 +293,10 @@ body {
 
   .hero-section {
     min-height: 511px;
+  }
+
+  .image-mb {
+    margin-bottom: 0;
   }
 }
 
@@ -314,7 +333,7 @@ body {
   }
 
   .hero-section {
-    min-height: 755px;
+    min-height: 720px;
   }
 }
 
@@ -323,14 +342,29 @@ body {
     height: 100%;
   }
 
+  .hero-image-size {
+    max-width: 500px !important;
+  }
+
   .slider-image {
     width: 250px;
     height: 250px;
   }
 
+  .hero-image-position {
+    top: 28%;
+  }
+
   .logo-image {
     max-width: 240px;
     height: 79px;
+  }
+
+  .footer-right-image {
+    max-width: 470px;
+    height: 120px;
+    top: 32%;
+
   }
 }
 
@@ -338,14 +372,14 @@ body {
   .footer-right-image {
     max-width: 170px;
     height: 120px;
-top: 32%;
+    top: 32%;
 
   }
 
   .footer-left-image {
     max-width: 170px;
-      height: 120px;
-      top: 32%;
+    height: 120px;
+    top: 32%;
   }
 
   .slider-image {
@@ -397,15 +431,34 @@ top: 32%;
   .hero-section {
     min-height: 630px;
   }
-    .team-image {
-      max-width: none;
-      height: 100%;
-      margin-bottom: 23px;
-      width: 100%;
-    }
-  
-    .card-text {
-      max-width: none;
-    }
+
+  .team-image {
+    max-width: none;
+    height: 100%;
+    margin-bottom: 23px;
+    width: 100%;
+  }
+
+  .card-text {
+    max-width: none;
+  }
+
+  .story-heading {
+    font-size: 32px;
+
+  }
+
+  .card-heading {
+    font-size: 20px;
+  }
+  .team-pt{
+    padding-top: 12px;
+  }
+  .story-image{
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .story-padding{
+    padding-top: 10px;
+  }
 }
- 
